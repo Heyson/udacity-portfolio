@@ -41,10 +41,16 @@ footer {
     min-height: 250px;
 }
 
-footer li, ul.social-links {
+footer ul ul.social-links {
     list-style-type: none;
     text-decoration: none;
-    display: inline-flex;   
+    display: flex;
+    justify-content: center; 
+    padding: 15px;  
+}
+
+footer ul ul.social-links li {
+    padding: 5px;  
 }
 
 .bio { 
@@ -116,6 +122,10 @@ a:hover {
     transition: all .2s ease-in-out; 
 }
 
+h4 {
+    color: #333;
+}
+
 .grow:hover { 
     transform: scale(1.1);
     -webkit-box-shadow: 14px 11px 45px -16px rgba(54, 83, 92, 0.75);
@@ -139,13 +149,12 @@ li.socail-links {
 
 .about-section {
     min-height: 300px;
-    background-color: #1fc8db;
-    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-color: #b1d9e7;
     color: white;
     opacity: 0.95;
     padding: 15px 15px 15px 30px;
-    border-top: 4px solid #fff;
-    border-bottom: 4px solid #fff;
+    border-top: 0px solid #fff;
+    border-bottom: 0px solid #fff;
     display: flex;
     font-size: 1.4em;
 }
@@ -163,17 +172,17 @@ article {
 .portfolio-works {
    min-height: 300px;
     background-color: #999;
-    background-image: linear-gradient(141deg, #444 0%, #ccc 51%, #555 75%);
+    background-image: linear-gradient(350deg, #fff 0%, #fff 47%, #ecf6f9 48%);
     color: white;
     opacity: 0.95;
-    padding: 15px;
+    padding: 50px 15px;
     border-top: 4px solid #fff;
     border-bottom: 4px solid #fff;
 }
 
 .portfolio-experience {
     max-width: 1300px;
-    min-height: 300px;
+    min-height: 600px;
     background-color: #fff;
     display: flex; 
     flex-wrap: wrap;
@@ -181,11 +190,11 @@ article {
     justify-content: space-around;
     border-bottom: 4px solid #fff;
     margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 30px;ß
 }
 
 .section-title {
+    color: #2cb5e8;
     width: 100%;
     display: block;
     text-align: center;
@@ -194,15 +203,14 @@ article {
 
 .exp-content {
     flex-wrap: wrap;
-    border: 2px solid #999;
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
     width: 200px;
     height: 280px;
-    -webkit-box-shadow: 14px 11px 45px -16px rgba(0,0,0,0.75);
-    -moz-box-shadow: 14px 11px 45px -16px rgba(0,0,0,0.75);
-    box-shadow: 14px 11px 45px -16px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.15);
     text-align: center;
     font-size: 18px;
     line-height: 22px;
@@ -229,6 +237,7 @@ article {
 }
 
 .portfolio-card-1 {
+    background-color: #fff;
     border: 1px solid #DE4B25;
     border-radius: 5px;
     padding: 10px;
@@ -238,6 +247,7 @@ article {
 }
 
 .portfolio-card-2 {
+    background-color: #fff;
     border: 1px solid #0D70B5;
     border-radius: 5px;
     padding: 10px;
@@ -247,6 +257,7 @@ article {
 }
 
 .portfolio-card-3 {
+    background-color: #fff;
     border: 1px solid #64A466;
     border-radius: 5px;
     padding: 10px;
@@ -256,6 +267,7 @@ article {
 }
 
 .portfolio-card-4 {
+    background-color: #fff;
     border: 1px solid #4894C3;
     border-radius: 5px;
     padding: 10px;
@@ -265,7 +277,8 @@ article {
 }
 
 .portfolio-card-5 {
-    border: 1px solid #FCA226;
+    background-color: #fff;
+    border: 1px solid #0D70B5 ;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
@@ -274,11 +287,11 @@ article {
 }
 
 .portfolio-card-5 img {
-    height: 100px;
-    width: 100px;
+    padding: 11% 0px;
 }
 
 .portfolio-card-6 {
+    background-color: #fff;
     border: 1px solid #DC4028;
     border-radius: 5px;
     padding: 10px;
@@ -295,7 +308,8 @@ article {
 .contacts-section {
     min-height: 300px;
     background-color: #999;
-    background-image: linear-gradient(141deg, #ccc 0%, #fff 51%, #999 75%);
+    background-image: linear-gradient(167deg, #fff 0%, #fff 47%, #ecf6f9 48%);
+    
     color: #ccc;
     opacity: 0.95;
     padding: 15px;
@@ -313,52 +327,8 @@ article {
     margin: 0 auto;
 }
 
-.contacts-card-1 {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 100%;
-}
-
-.contacts-card-2 {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 100%;
-}
-
-.contacts-card-3 {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 100%;
-}
-
-.contacts-card-4 {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 100%;
-}
-
-.contacts-card-5 {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 100%;
-}
-
-.contacts-card-6 {
+.contacts-card-1, .contacts-card-2, .contacts-card-3, .contacts-card-4, .contacts-card-5, .contacts-card-6 {
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
