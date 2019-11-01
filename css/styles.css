@@ -148,11 +148,11 @@ li.socail-links {
 }
 
 .about-section {
-    min-height: 300px;
+    min-height: 450px;
     background-color: #b1d9e7;
     color: white;
     opacity: 0.95;
-    padding: 15px 15px 15px 30px;
+    padding: 50px 15px 15px 30px;
     border-top: 0px solid #fff;
     border-bottom: 0px solid #fff;
     display: flex;
@@ -391,3 +391,4 @@ article {
     .portfolio-card-5 { order: 5;}
     .portfolio-card-6 { order: 6;}
 }
+
