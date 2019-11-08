@@ -1,5 +1,5 @@
 {
-  "name": "udacity-portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Heysons Portfoio ",
   "main": "index.js",
@@ -7,5 +7,27 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Heyson",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heyson/udacity-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Heyson/udacity-portfolio/issues"
+  },
+  "homepage": "https://github.com/Heyson/udacity-portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "browsersync": "0.0.1-security",
+    "gulp-uglifycss": "^1.1.0",
+    "python2": "0.0.1",
+    "sass": "^1.23.3"
+  }
 }
